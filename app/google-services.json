@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134089122316",
+    "firebase_url": "https://carpediem-5ab98.firebaseio.com",
+    "project_id": "carpediem-5ab98",
+    "storage_bucket": "carpediem-5ab98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134089122316:android:4237a969c6026b85",
+        "android_client_info": {
+          "package_name": "com.example.katarina.carpediem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134089122316-deg3qu22tt1b16r789mks1r99aaugtvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.katarina.carpediem",
+            "certificate_hash": "3e5c74b30f0fc22131d1e9c4b14fd812da43ff26"
+          }
+        },
+        {
+          "client_id": "134089122316-mr43nhgceu5ipqqetj0asjhpq070ud0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6hI0MHJzVFuGW0mRyCf_-VyUFjAheECQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134089122316-mr43nhgceu5ipqqetj0asjhpq070ud0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

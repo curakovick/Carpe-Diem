@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meditat"
+    android:visibility="visible"
+    tools:context=".MeditationActivity">
+
+    <Button
+        android:id="@+id/button_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/login_button"
+        android:onClick="pause"
+        android:text="Pause"
+        android:textColor="#106B19"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button_play"
+        app:layout_constraintEnd_toEndOf="@+id/button_play" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/login_button"
+        android:onClick="play"
+        android:text="Play"
+        android:textColor="#106B19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_button"
+        android:onClick="stop"
+        android:text="Reset"
+        android:textColor="#106B19"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/button_play"
+        app:layout_constraintTop_toBottomOf="@+id/button_play" />
+
+</android.support.constraint.ConstraintLayout>
